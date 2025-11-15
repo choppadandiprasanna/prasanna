@@ -1,0 +1,84 @@
+*{
+ padding: 0px
+ margin: 0px
+}
+ul{
+    border: solid 1px;
+    width: 330px;
+    position: fixed;
+    height: 100%;
+    background-color: aqua;
+    padding-top: 60px;
+    list-style: none;
+}
+#text1{
+    color: #8a2be2;
+    font-size: 35px;
+    font-weight: bold;
+}
+#text2{
+    color: bisque;
+    font-size: 33px;
+    font-weight: bold;
+}
+ul li{
+    border: solid 1px white;
+    height: 50px;
+    width: 150px;
+    margin-left: 70px;
+    background-color: burlywood;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+ul li a{
+    color: aquamarine;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: aqua;
+}
+#Home{
+    border: solid 1px;
+    height: 620px;
+    background-color: burlywood;
+    padding-left: 600px;
+}
+#text3{
+    color: bisque;
+    font-size: 58px;
+}
+#text4{
+    color: bisque;
+    font-size: 50px;
+}
+#text5{
+    font-size: 22px;
+    font-weight: bold;
+}
+#bt1{
+    height: 60px;
+    width: 200px;
+    background-color: beige;
+    border-radius: 20px;
+    color: cadetblue;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#About{
+    border: solid 1px;
+    height: 620px;
+    background-color: tan;
+    padding-left: 335px;
+}
+#Aboutme{
+    font-size: 50px;
+    color: tomato;
+}
+html{
+    scroll-behavior: smooth;
+}
